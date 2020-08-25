@@ -1,0 +1,12 @@
+---
+applications:
+- name: hibernate-demo
+  buildpacks:
+   - java_buildpack
+  disk_quota: 512M
+  instances: 1
+  memory: 1024M
+  routes:
+   - route: hibernate-demo.cg.training.com
+  env:
+    JAVA_OPTS: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=true -Dorg.apache.catalina.connector.CoyoteAdapter.ALLOW_BACKSLASH=false -Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=false

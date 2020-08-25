@@ -1,2 +1,2 @@
 # spring-orm-hibernate-demo
-Spring ORM frameworks
+Spring ORM frameworks training

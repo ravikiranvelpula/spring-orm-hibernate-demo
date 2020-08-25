@@ -22,7 +22,7 @@ dependencies {
 	}
 }
 
-mainClassName = "com.cg.training.springormhibernatedemo.SpringOrmHibernateDemoApplication"
+mainClassName = 'com.cg.training.springormhibernatedemo.SpringOrmHibernateDemoApplication'
 
 test {
 	useJUnitPlatform()
